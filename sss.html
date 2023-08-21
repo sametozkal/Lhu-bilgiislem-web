@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LHUBİDB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @media (max-width: 1200px) { 
+         aside.leftmenu {
+          display: none !important;
+         }
+       }
+      .videoplay{
+        width:820px;
+        height:720px;
+      }
+      video {
+        /* override other styles to make responsive */
+        width: 100%    !important;
+        height: auto   !important;
+      }
+      .resim{
+        display: block;
+        margin: auto;
+        padding: 50px;
+      }
+      .linkler {
+       display: flex;
+       justify-content: left;
+      }
+      .idarikadro {
+        display: flex;
+        justify-content: center;
+        max-width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar sticky-top bg-light">
+      <div class="container-fluid d-flex nav justify-content-center">
+        <a class="navbar-brand text-primary-emphasis" href="index.html">
+          <img src="images/Lokman_Hekim_Üniversitesi_logo.svg.png"alt="Logo" width="50" height="39" class="d-inline-block align-text-top ">
+             Bilgi İşlem Daire Başkanlığı
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a style="color: rgb(17, 184, 240);" class="nav-link" href="hizmetler.html"><b>Hizmetler </b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="color: rgb(17, 184, 240);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Mevzuatlar</b></a>
+            <ul class="dropdown-menu z-2">
+              <li><a  class="dropdown-item" href="pdf/bggp.pdf" target="_blank">Bilgi Güvenliği Genel Politikası</a></li>
+              <li><a  class="dropdown-item" href="pdf/pcagbilisim.pdf" target="_blank">Bilgisayar, Ağ, Bilişim Kaynakları Kullanım Yönergesi</a></li>
+              <li><a class="dropdown-item" href="pdf/eimza.pdf" target="_blank">Elektronik İmza Alım, Kullanım ve Yenileme Yönergesi</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="color: rgb(17, 184, 240);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Kurumsal</b></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="idarikadro.html">İdari Kadro</a></li>
+              <li><a class="dropdown-item" href="misyonvizyon.html">Misyon&Vizyon</a></li>
+              <li><a class="dropdown-item" href="teknikdestek.html">Teknik Destek
+              </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgb(17, 184, 240);" class="nav-link" href="kvkk.html"><b>KVKK</b>
+            </a>
+          </li>
+          <li  class="nav-item">
+            <a style="color: rgb(17, 184, 240);" class="nav-link" href="sss.html"><b>S.S.S</b> </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+               <!-- Sol Taraf -->
+
+      <main class="container-fluid">
+        <div class="row">
+          <aside class="leftmenu col-sm-3 bg-white sticky-top" style="height: calc(100vh - 67px); top:67px">
+            <!-- <video width="100%" loop autoplay muted playsinline preload="metadata">
+              <source src="video.mp4" type="video/mp4">      
+             </video> -->
+          </aside>
+                <!-- Sağ taraf -->
+
+              <section class="col-sm-7 bg-white px-5">
+                       <!-- İcon -->
+                       <div class="linkler">
+
+                        <a style="color: rgb(17, 184, 240); margin-left: 30px" href="https://obs.lokmanhekim.edu.tr/" target="_blank">
+                          <i class="fa-solid fa-graduation-cap fa-sm" >OBS</i>
+                         </a>
+                        <a style="color: rgb(17, 184, 240); margin-left: 30px;" href="https://ebys.lokmanhekim.edu.tr/Giris.aspx" target="_blank">
+                          <i class="fa-solid fa-server fa-sm"> EBYS</i>
+                        </a>
+                        <a style="color: rgb(17, 184, 240); margin-left: 30px;" href="https://keyps.lokmanhekim.edu.tr/system/login" target="_blank">
+                          <i class="fa-solid fa-pen-to-square fa-sm"> KEYPS</i>
+                       </a>
+                       <a style="color: rgb(17, 184, 240); margin-left: 30px;" href="https://sifre.lokmanhekim.edu.tr/" target="_blank">
+                        <i class="fa-solid fa-key fa-sm"> SIFRE</i>
+                      </a>
+                       
+                      </div>
+                       <!-- İcon Finish-->
+                        <!-- Ana Gövde -->
+                        <h3 style="text-align: center; color: black;"><b> Sık Sorulan Sorular </b></h3>
+                        <div  class="card">
+                        <div class="row" style="margin-top: 20px;">
+                            <div class="col-4">
+                              <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                                <nav class="nav nav-pills flex-column">
+                                  <a class="nav-link" href="#item-1">Şifre İşlemleri</a>
+                                  <nav class="nav nav-pills flex-column">
+                                    <a class="nav-link ms-3 my-1" href="#item-1-1">E-posta parolamı unuttum. E-posta parolamı nasıl güncelleyebilirim?
+                                    </a>
+                                    <a class="nav-link ms-3 my-1" href="#item-1-2">EBYS şifrem bloke oldu. Ne yapabilirim?</a>
+                                  </nav>
+                                  <a class="nav-link" href="#item-2">Destek Talebi Nasıl Oluşturulur </a>
+                                  <a class="nav-link" href="#item-3">Sınav Talebi Nasıl Oluşturulur</a>
+                                </nav>
+                              </nav>
+                            </div>
+                          
+                            <div class="col-8">
+                              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="-1">
+                                <div id="item-1">
+                                  <h4>Şifre İşlemleri</h4>
+                                  <p>Unutulan  E-Posta, Bilgisayar ve Office365 şifreleri için<a href="https://sifre.lokmanhekim.edu.tr/" target="_blank"><p>Buraya Tıklayıp</p></a> gerekli bilgileri girerek şifrenizi güncelleyebilirsiniz <br>
+                                NOT: Bilgiler eşleşmiyor hatası ile karşılaşırsanız sistemdeki bilgilerinizi güncellemek için bilgi işlem ile iletişime geçin (bilgi.islem@lhu.edu.tr)</p>
+                                </div>
+                                <div id="item-1-1">
+                                  <h5>E-posta parolamı unuttum. E-posta parolamı nasıl güncelleyebilirim?</h5>
+                                  <p>Şifrelerinizi <a href="http://sifre.lokmanhekim.edu.tr/" target="_blank"><p>BİS Sisteminden</p></a> güncelleyebilirsiniz </p>
+                                </div>
+                                <div id="item-1-2">
+                                  <h5>EBYS şifrem bloke oldu. Ne yapabilirim?</h5>
+                                  <p>E-posta sahibi kullanıcı veya başkaları tarafından belirli bir sürede üst üste yanlış şifre denemesi yapıldığı takdirde sistem kendini korumaya alarak şifrenizi geçici bir süre bloke etmektedir. Hatalı denemeler devam ederse bu durumda kalıcı olarak hesabınız bloke edilir. Bunların dışında şifrenizin üçüncü şahısların eline geçmesi ve o kişi tarafından hesabınızın spam mesaj gönderiminde kullanılması halinde de yine şifreniz bloke edilmektedir. Tüm bu durumlar için Bilgi İşlem destek merkezine (bilgi.silem@lhu.edu.tr) mesaj gönderebilir, telefonla veya şahsen gelerek görüşebilirsiniz.</p>
+                                </div>
+                                <div id="item-2">
+                                  <h4>Destek Talebi Nasıl Oluşturulur</h4>
+                                  <p><ol>
+                                    <li>İlk olarak yandaki linke tıklayarak bis.lokmanhekim.edu.tr adresine gidin</li>
+                                    <li>Kullanıcı adı ve şifre bilgilerinizi giriniz
+                                        Not: Personelin kullanıcı adı (ad.soyad) şeklindedir</li>
+                                        <li>Destek Portalı > Yeni Destek Talebi sekmelerine tıklayınız</li>
+                                        <li> Çıkan ekranda bilgileri doldurunuz, fotoğraf ekleme kısmı hariç diğer sekmeler doldurulmak zorundadır</li>
+                                        <li>Oluşturduğunuz destek talebini Destek Portalı > Destek Taleplerim sekmesinden takip edebilirsiniz</li>
+                                  </ol></p>
+                                </div>
+                                <div id="item-3">
+                                  <h4>Sınav Talebi Nasıl Oluşturulur</h4>
+                                  <p><ol>
+                                    <li>İlk önce bis.lokmanhekim.edu.tr adresinden sisteme giriş yapıyoruz</li>
+                                    <li>Sol taraftaki menüde Sınav İşlemleri > Sınav Basım Talebi sekmelerine tıklıyoruz. </li>
+                                    <li>Gelen ekranda ki bilgileri doldurunuz not kısmı hariç diğer tüm sekmeleri doldurmak zorunludur.</li>
+                                    <li> En son olarak altta yer alan kaydet butonuna tıklayarak sınav talebinizi başarılı bir şekilde yapmış olacaksınız.</li>
+                                  </ol></p>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+                        </section>
+                    </div>
+                    </main>
+                          
+
+    
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

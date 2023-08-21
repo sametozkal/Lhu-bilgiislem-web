@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LHUBİDB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         @media (max-width: 1200px) { 
+         aside.leftmenu {
+          display: none !important;
+         }
+       }
+      .videoplay{
+        width:820px;
+        height:720px;
+      }
+      video {
+        /* override other styles to make responsive */
+        width: 100%    !important;
+        height: auto   !important;
+      }
+      .resim{
+        display: block;
+        margin: auto;
+        padding: 50px;
+      }
+      .linkler {
+       display: flex;
+       justify-content: left;
+      }
+      .idarikadro {
+        display: flex;
+        justify-content: center;
+        max-width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar sticky-top bg-light">
+      <div class="container-fluid d-flex nav justify-content-center">
+        <a class="navbar-brand text-primary-emphasis" href="index.html">
+          <img src="images/Lokman_Hekim_Üniversitesi_logo.svg.png"alt="Logo" width="50" height="39" class="d-inline-block align-text-top ">
+             Bilgi İşlem Daire Başkanlığı
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a style="color: rgb(17, 184, 240);" class="nav-link" href="hizmetler.html"><b>Hizmetler </b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="color: rgb(17, 184, 240);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Mevzuatlar</b></a>
+            <ul class="dropdown-menu z-2">
+              <li><a  class="dropdown-item" href="pdf/bggp.pdf" target="_blank">Bilgi Güvenliği Genel Politikası</a></li>
+              <li><a  class="dropdown-item" href="pdf/pcagbilisim.pdf" target="_blank">Bilgisayar, Ağ, Bilişim Kaynakları Kullanım Yönergesi</a></li>
+              <li><a class="dropdown-item" href="pdf/eimza.pdf" target="_blank">Elektronik İmza Alım, Kullanım ve Yenileme Yönergesi</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="color: rgb(17, 184, 240);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><b>Kurumsal</b></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="idarikadro.html">İdari Kadro</a></li>
+              <li><a class="dropdown-item" href="misyonvizyon.html">Misyon&Vizyon</a></li>
+              <li><a class="dropdown-item" href="teknikdestek.html">Teknik Destek
+              </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgb(17, 184, 240);" class="nav-link" href="kvkk.html"><b>KVKK</b>
+            </a>
+          </li>
+          <li  class="nav-item">
+            <a style="color: rgb(17, 184, 240);" class="nav-link" href="sss.html"><b>S.S.S</b> </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+               <!-- Sol Taraf -->
+
+      <main class="container-fluid">
+        <div class="row">
+          <aside class="leftmenu col-sm-3 bg-white sticky-top" style="height: calc(100vh - 67px); top:67px">
+            <!-- <video width="100%" loop autoplay muted playsinline preload="metadata">
+              <source src="video.mp4" type="video/mp4">      
+             </video> -->
+          </aside>
+                <!-- Sağ taraf -->
+
+              <section class="col-sm-7 bg-white px-5">
+                       <!-- İcon -->
+                       <div class="linkler">
+
+                        <a style="color: rgb(17, 184, 240); margin-left: 30px" href="https://obs.lokmanhekim.edu.tr/" target="_blank">
+                          <i class="fa-solid fa-graduation-cap fa-sm" >OBS</i>
+                         </a>
+                        <a style="color: rgb(17, 184, 240); margin-left: 30px;" href="https://ebys.lokmanhekim.edu.tr/Giris.aspx" target="_blank">
+                          <i class="fa-solid fa-server fa-sm"> EBYS</i>
+                        </a>
+                        <a style="color: rgb(17, 184, 240); margin-left: 30px;" href="https://keyps.lokmanhekim.edu.tr/system/login" target="_blank">
+                          <i class="fa-solid fa-pen-to-square fa-sm"> KEYPS</i>
+                       </a>
+                       <a style="color: rgb(17, 184, 240); margin-left: 30px;" href="https://sifre.lokmanhekim.edu.tr/" target="_blank">
+                        <i class="fa-solid fa-key fa-sm"> SIFRE</i>
+                      </a>
+                       
+                      </div>
+                       <!-- İcon Finish-->
+                        <!-- Ana Gövde -->
+
+                        <div class="card mb-3">
+                            <img src="images/cibersec.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 style="text-align: center;" class="card-title text-dark"><b>Siber güvenlik Farkındalık: Herkesin Bilmesi Gereken Güvenlik İpuçları</b> <hr></h5>
+                              <h5 class="card-title">En Çok Karşılaşılan 6 Siber Dolandırıcılık Yöntemi
+                              </h5>
+                              <p class="card-text"><ol>
+                                <li> <b>Sosyal Medya Dolandırıcılığı</b>
+                                    <p>Sosyal medya dolandırıcılıkları, haber akışlarınızda göreceğiniz çeşitli gönderilerdir. Bunların tümü, potansiyel olarak kötü amaçlı yazılım barındırabilecek bir bağlantıya tıklamanızı sağlamak amacıyla yapılır. Çoğu zaman Twitter’da sponsorlu sahte reklamlar ile ya da Intagram’da özel mesaj ile karşılaşılabilir.
+                                    </p>
+                                </li>
+                                <li><b> Sahte Alışveriş Siteleri</b>
+                                    <p>Sofistike tasarımlar kullanan siber dolandırıcılar, gerçek görünen veya mevcut perakendeci web sitelerini kopyalayan sahte perakendeci web siteleri oluşturabilir ve yayınlayabilir. Sahte alışveriş siteleri gerçek olamayacak kadar iyi fırsatlar sunabilir. Örneğin, çok düşük fiyatlarla popüler giyim markaları ve pahalı elektronik ürünler bulabilirsiniz.
+                                    </p>
+                                </li>
+                                <li> <b>Sosyal Mühendislik Dolandırıcılığı</b>
+                                    <p>Sosyal mühendislik, kullanıcının hassas bilgilerini ifşa etmesini sağlamak için siber suçluların insandan insana etkileşimi kullanmasının bir yoludur. Sosyal mühendislik insan doğasına ve duygusal tepkilere dayandığından, saldırganların sizi çevrimiçi ve çevrimdışı kandırmanın pek çok yolu vardır. Bu yöntemde herkese açık olarak paylaştığınız ev adresiniz, çocuklarınızın ismi, evcil hayvanınınız, doğduğunuz şehir gibi ilk bakışta zararlı olmayan bilgiler kullanılabilir.
+                                    </p>
+                                </li>
+                                <li> <b>Sahte Telefon Uygulamaları</b>
+                                    <p>Mobil dolandırıcılık olarak da adlandırılan bu yöntem pek çok biçimde olabilir ancak en yaygın olanı kimlik avı uygulamalarıdır. Bu uygulamalar tıpkı kimlik avı e-postaları gibi gerçek gibi görünecek şekilde tasarlanmıştır. Tam olarak aynı işlevi görür ancak e-postalar yerine kötü amaçlı yazılım sahte bir uygulama ile bulaşır. Telefonunuzda kayıtlı şifreler, fotoğraflar ve bankacılık uygulamalarındaki bilgiler gibi hassas verileriniz etkilenir.
+                                    </p>
+                                </li>
+                                <li> <b>Oltalama</b>
+                                    <p>Günümüzün en yaygın siber dolandırıcılığı olan oltalama saldırılarında hackerler, kimlik avı e-postaları göndererek kullanıcıları kandırmaya çalışırlar. Bu e-postalarda, bir siber suçlu sizi normalde iş yaptığınız ya da bir kamu kurumu gibi güvenilir bir web sitesinde oturum açtığınıza inanmanız için kandırmaya çalışır. Bu bir banka, kamu kurumu, sosyal medya hesabınız, çevrimiçi bir alışveriş web sitesi, seyahat sitesi ve daha fazlası olabilir.
+                                    </p>
+                                </li>
+                                <li> <b>Beklenmeyen Ödül Dolandırıcılığı</b>
+                                    <p>Bu tür dolandırıcılık, kimlik avı kategorisine girer. E-posta ya da mesaj, büyük miktarda para kazandığınızı, egzotik bir yere ücretsiz seyahat veya başka bir harika ödül kazandığınızı iddia edebilir. Yolculuğunuzu veya kazancınızı talep etmek için mesajda, yalnızca birkaç küçük ücret ödemeniz gerektiği söylenir.
+                                    </p>
+                                </li>
+                              </ol> <br><hr> </p>
+                            </div>
+                          </div>
+
+            </section>
+        </div>
+      </main>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
